@@ -1,81 +1,72 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="Curiosidades virais e fatos incríveis que você nunca imaginou!" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Curiosidades virais e fatos incríveis sobre animais, ciência e corpo humano!">
   <title>Curiosidades Incríveis</title>
-
-  <!-- Google AdSense -->
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3382909580328162"
-    crossorigin="anonymous"></script>
-
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3382909580328162" crossorigin="anonymous"></script>
   <style>
     * { box-sizing: border-box; }
     body {
       font-family: Arial, sans-serif;
       margin: 0;
-      background-color: #f9f9f9;
+      padding: 0;
+      background-color: #f5f5f5;
       color: #333;
     }
     header {
       background-color: #007BFF;
-      padding: 10px 0;
+      color: white;
+      padding: 15px 0;
+      text-align: center;
       position: sticky;
       top: 0;
-      z-index: 1000;
-    }
-    nav {
-      display: flex;
-      justify-content: center;
-      gap: 30px;
+      z-index: 100;
     }
     nav a {
+      margin: 0 15px;
       color: white;
       text-decoration: none;
       font-weight: bold;
-      padding: 8px;
-    }
-    nav a:hover {
-      text-decoration: underline;
     }
     .container {
       max-width: 900px;
       margin: auto;
       padding: 20px;
     }
-    h1 {
-      text-align: center;
-      color: #007BFF;
-    }
     article {
-      background: #fff;
+      background-color: white;
+      border-radius: 8px;
       padding: 20px;
-      margin: 20px 0;
-      border-radius: 10px;
-      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+      margin-bottom: 20px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     }
     article img {
       max-width: 100%;
       border-radius: 8px;
-      margin-bottom: 15px;
+      margin-bottom: 10px;
     }
-    .adsense {
-      text-align: center;
-      margin: 30px 0;
-    }
-    section {
-      background: #fff;
-      padding: 20px;
-      border-radius: 8px;
-      margin: 30px 0;
-      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    h1, h2 {
+      color: #007BFF;
     }
     footer {
+      background-color: #eee;
       text-align: center;
-      font-size: 14px;
       padding: 20px;
-      color: #666;
+      margin-top: 40px;
+      font-size: 14px;
+    }
+    #voltar-topo {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #007BFF;
+      color: white;
+      border: none;
+      padding: 10px 15px;
+      border-radius: 5px;
+      cursor: pointer;
     }
   </style>
 </head>
@@ -93,6 +84,12 @@
     <h1 id="inicio">Curiosidades Incríveis</h1>
 
     <article>
+      <img src="gato.jpg" alt="Gato ronronando">
+      <h2>Por que os gatos ronronam?</h2>
+      <p>O ronronar dos gatos não serve apenas para mostrar felicidade. Estudos indicam que também pode ajudar na cura de ossos e tecidos!</p>
+    </article>
+
+    <article>
       <img src="polvo.jpg" alt="Polvo no oceano">
       <h2>Você sabia que o polvo tem 3 corações?</h2>
       <p>Dois corações bombeiam sangue para as guelras, enquanto o terceiro envia sangue para o resto do corpo. Quando nadam, o coração principal para de bater!</p>
@@ -101,7 +98,7 @@
     <article>
       <img src="raiox.jpg" alt="Corpo humano em raio-x">
       <h2>10 fatos incríveis sobre o corpo humano</h2>
-      <ol>
+      <ul>
         <li>O coração humano bate cerca de 100 mil vezes por dia.</li>
         <li>Seu cérebro gera cerca de 20 watts de energia.</li>
         <li>O nariz humano pode reconhecer mais de 1 trilhão de cheiros.</li>
@@ -112,7 +109,19 @@
         <li>Os olhos distinguem até 10 milhões de cores.</li>
         <li>O estômago se regenera a cada 3 dias.</li>
         <li>A língua é presa só em uma extremidade.</li>
-      </ol>
+      </ul>
+    </article>
+
+    <article>
+      <img src="https://images.unsplash.com/photo-1518717758536-85ae29035b6d?auto=format&fit=crop&w=900&q=60" alt="Cachorro sorrindo">
+      <h2>O que faz os cães abanarem o rabo?</h2>
+      <p>Não é só felicidade! Cães abanam o rabo para se comunicar com outros cães e com humanos. Cada movimento transmite uma emoção diferente.</p>
+    </article>
+
+    <article>
+      <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=900&q=60" alt="Céu azul">
+      <h2>Por que o céu é azul?</h2>
+      <p>O céu é azul porque as moléculas de ar espalham mais a luz azul do que outras cores. Por isso, vemos o céu azul durante o dia.</p>
     </article>
 
     <div class="adsense">
@@ -141,10 +150,12 @@
       <h2>Contato</h2>
       <p>Para dúvidas, sugestões ou parceria, envie um e-mail para: <strong>lalaufuzao@gmail.com</strong></p>
     </section>
-
-    <footer>
-      © 2025 Curiosidades Incríveis. Todos os direitos reservados.
-    </footer>
   </div>
+
+  <button id="voltar-topo" onclick="window.scrollTo({ top: 0, behavior: 'smooth' })">↑ Topo</button>
+
+  <footer>
+    © 2025 Curiosidades Incríveis. Todos os direitos reservados.
+  </footer>
 </body>
 </html>
