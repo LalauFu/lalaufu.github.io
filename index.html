@@ -6,129 +6,187 @@
   <meta name="description" content="Curiosidades virais e fatos incríveis que você nunca imaginou!" />
   <title>Curiosidades Incríveis</title>
 
-  <!-- Código do Google AdSense -->
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3382909580328162" crossorigin="anonymous"></script>
+  <!-- Google AdSense -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3382909580328162"
+    crossorigin="anonymous"></script>
 
   <style>
+    * {
+      box-sizing: border-box;
+    }
+
     body {
       font-family: Arial, sans-serif;
-      background: #f8f9fa;
+      margin: 0;
+      background-color: #f9f9f9;
       color: #333;
-      padding: 20px;
-      max-width: 800px;
-      margin: auto;
     }
-    h1 {
-      color: #007BFF;
-      text-align: center;
+
+    header {
+      background-color: #007BFF;
+      padding: 10px 0;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
     }
-    article {
-      background: white;
-      padding: 20px;
-      margin-bottom: 20px;
-      border-radius: 8px;
-      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
     }
-    .adsense {
-      text-align: center;
-      margin: 20px 0;
-    }
-    footer {
-      margin-top: 40px;
-      text-align: center;
-      font-size: 14px;
-    }
-    footer a {
-      margin: 0 10px;
-      color: #007BFF;
+
+    nav a {
+      color: white;
       text-decoration: none;
+      font-weight: bold;
+      padding: 8px;
     }
-    footer a:hover {
+
+    nav a:hover {
       text-decoration: underline;
     }
+
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+      color: #007BFF;
+    }
+
+    article {
+      background: #fff;
+      padding: 20px;
+      margin: 20px 0;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    article img {
+      max-width: 100%;
+      border-radius: 8px;
+      margin-bottom: 15px;
+    }
+
+    .adsense {
+      text-align: center;
+      margin: 30px 0;
+    }
+
     section {
       background: #fff;
       padding: 20px;
       border-radius: 8px;
-      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-      margin-top: 20px;
+      margin: 30px 0;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    footer {
+      text-align: center;
+      font-size: 14px;
+      padding: 20px;
+      color: #666;
     }
   </style>
 </head>
 <body>
-  <h1>Curiosidades Incríveis</h1>
 
-  <article>
-    <h2>Por que os gatos ronronam?</h2>
-    <p>O ronronar dos gatos não serve apenas para mostrar felicidade. Estudos indicam que também pode ajudar na cura de ossos e tecidos!</p>
-  </article>
+  <header>
+    <nav>
+      <a href="#inicio">Início</a>
+      <a href="#sobre">Sobre</a>
+      <a href="#privacidade">Privacidade</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
 
-  <div class="adsense">
-    <!-- Bloco de anúncio oficial -->
-    <ins class="adsbygoogle"
-         style="display:block"
-         data-ad-client="ca-pub-3382909580328162"
-         data-ad-slot="9549876283"
-         data-ad-format="auto"
-         data-full-width-responsive="true"></ins>
-    <script>
-         (adsbygoogle = window.adsbygoogle || []).push({});
-    </script>
+  <div class="container">
+    <h1 id="inicio">Curiosidades Incríveis</h1>
+
+    <article>
+      <img src="https://images.unsplash.com/photo-1561948955-570b270e7c36" alt="Gato ronronando">
+      <h2>Por que os gatos ronronam?</h2>
+      <p>O ronronar dos gatos não serve apenas para mostrar felicidade. Estudos indicam que também pode ajudar na cura de ossos e tecidos!</p>
+    </article>
+
+    <div class="adsense">
+      <!-- Google AdSense -->
+      <ins class="adsbygoogle"
+           style="display:block"
+           data-ad-client="ca-pub-3382909580328162"
+           data-ad-slot="9549876283"
+           data-ad-format="auto"
+           data-full-width-responsive="true"></ins>
+      <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+      </script>
+    </div>
+
+    <article>
+      <img src="https://images.unsplash.com/photo-1586600841513-5bbf90d6e4d9" alt="Polvo no oceano">
+      <h2>Você sabia que o polvo tem 3 corações?</h2>
+      <p>Dois corações bombeiam sangue para as guelras, enquanto o terceiro envia sangue para o resto do corpo. Quando nadam, o coração principal para de bater!</p>
+    </article>
+
+    <article>
+      <img src="https://images.unsplash.com/photo-1588776814546-d3ba1d274d3e" alt="Corpo humano em raio-x">
+      <h2>10 fatos incríveis sobre o corpo humano</h2>
+      <ol>
+        <li>O coração humano bate cerca de 100 mil vezes por dia.</li>
+        <li>Seu cérebro gera cerca de 20 watts de energia.</li>
+        <li>O nariz humano pode reconhecer mais de 1 trilhão de cheiros.</li>
+        <li>Seus ossos são mais fortes que o aço.</li>
+        <li>Você perde até 100 fios de cabelo por dia.</li>
+        <li>Temos cerca de 37 trilhões de células.</li>
+        <li>A pele é o maior órgão do corpo.</li>
+        <li>Os olhos distinguem até 10 milhões de cores.</li>
+        <li>O estômago se regenera a cada 3 dias.</li>
+        <li>A língua é presa só em uma extremidade.</li>
+      </ol>
+    </article>
+
+    <article>
+      <img src="https://images.unsplash.com/photo-1518717758536-85ae29035b6d" alt="Animais exóticos">
+      <h2>5 curiosidades sobre animais</h2>
+      <ul>
+        <li>Golfinhos dormem com um olho aberto.</li>
+        <li>Corujas giram a cabeça até 270°.</li>
+        <li>Camarão-mantis vê 16 tipos de cores.</li>
+        <li>Formigas carregam 50x seu peso.</li>
+        <li>Elefantes não conseguem pular.</li>
+      </ul>
+    </article>
+
+    <article>
+      <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb" alt="Céu azul com nuvens">
+      <h2>Por que o céu é azul?</h2>
+      <p>O céu é azul porque as moléculas de ar espalham mais a luz azul do que outras cores. Por isso, vemos o céu azul durante o dia.</p>
+    </article>
+
+    <!-- Seções adicionais -->
+
+    <section id="sobre">
+      <h2>Sobre o site</h2>
+      <p>Este site foi criado para compartilhar curiosidades fascinantes, educativas e virais. Nosso objetivo é informar e entreter com conteúdo leve, confiável e atualizado.</p>
+    </section>
+
+    <section id="privacidade">
+      <h2>Política de Privacidade</h2>
+      <p>Utilizamos cookies e parceiros como o Google AdSense para exibir anúncios personalizados. Não coletamos dados pessoais diretamente. Ao navegar, você concorda com esses termos.</p>
+    </section>
+
+    <section id="contato">
+      <h2>Contato</h2>
+      <p>Para dúvidas, sugestões ou parceria, envie um e-mail para: <strong>exemplo@email.com</strong></p>
+    </section>
+
+    <footer>
+      © 2025 Curiosidades Incríveis. Todos os direitos reservados.
+    </footer>
   </div>
-
-  <article>
-    <h2>Você sabia que o polvo tem 3 corações?</h2>
-    <p>Dois corações bombeiam sangue para as guelras, enquanto o terceiro envia sangue para o resto do corpo. Quando nadam, o coração principal para de bater!</p>
-  </article>
-
-  <article>
-    <h2>10 fatos incríveis sobre o corpo humano que você não sabia</h2>
-    <ol>
-      <li>O coração humano bate cerca de 100 mil vezes por dia.</li>
-      <li>Seu cérebro gera cerca de 20 watts de energia.</li>
-      <li>O nariz humano pode reconhecer mais de 1 trilhão de cheiros.</li>
-      <li>Seus ossos são cinco vezes mais fortes que o aço.</li>
-      <li>Você perde cerca de 50 a 100 fios de cabelo por dia.</li>
-      <li>O corpo humano tem cerca de 37 trilhões de células.</li>
-      <li>A pele é o maior órgão do corpo humano.</li>
-      <li>Os olhos humanos podem distinguir até 10 milhões de cores.</li>
-      <li>Seu estômago se regenera a cada 3 dias.</li>
-      <li>A língua é o único músculo preso por apenas uma extremidade.</li>
-    </ol>
-  </article>
-
-  <article>
-    <h2>5 curiosidades sobre animais que vão te surpreender</h2>
-    <ul>
-      <li>Os golfinhos dormem com um olho aberto.</li>
-      <li>As corujas giram a cabeça até 270°.</li>
-      <li>O camarão-mantis tem a visão mais complexa do mundo.</li>
-      <li>As formigas carregam até 50 vezes seu peso.</li>
-      <li>Os elefantes não conseguem pular.</li>
-    </ul>
-  </article>
-
-  <article>
-    <h2>Por que o céu é azul?</h2>
-    <p>O céu é azul porque a luz azul se espalha mais na atmosfera do que outras cores. Por isso, é a que mais enxergamos durante o dia.</p>
-  </article>
-
-  <!-- Sobre e Política -->
-
-  <section id="sobre">
-    <h2>Sobre o site</h2>
-    <p>Este site foi criado com o objetivo de compartilhar curiosidades interessantes e virais sobre o mundo, ciência, animais e o corpo humano. Nosso conteúdo é leve, divertido e educativo.</p>
-  </section>
-
-  <section id="privacidade">
-    <h2>Política de Privacidade</h2>
-    <p>Usamos cookies e serviços de terceiros, como o Google AdSense, para exibir anúncios. O Google pode usar dados de navegação para personalizar a publicidade. Ao navegar no site, você concorda com isso.</p>
-    <p>Não coletamos dados pessoais diretamente. Caso tenha dúvidas, entre em contato pelo e-mail: exemplo@email.com.</p>
-  </section>
-
-  <footer>
-    <a href="#sobre">Sobre</a> |
-    <a href="#privacidade">Política de Privacidade</a>
-  </footer>
 </body>
 </html>
